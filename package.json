@@ -1,0 +1,43 @@
+{
+  "name":         "indents",
+  "description":  "Convert project indentation from tabs to spaces",
+  "keywords":     ["indentation", "spaces", "tabs", "converter", "coffeescript"],
+  "homepage": "http://abovethewater.github.io/indents",
+  "author": {
+    "name": "Joe Mathews",
+    "email": "joe@abovethewater.co.uk"
+  },
+  "version":      "0.0.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://abovethewater.mit-license.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abovethewater/indents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abovethewater/indents/issues"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "commander":  "~0.5.2",
+    "coffeelint": "~0.5.6",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.1"
+  },
+  "main" :        "./indents",
+  "bin": {
+    "indents":      "./bin/indents"
+  },
+  "scripts": {
+    "test": "nodeunit test/*"
+  }
+}
+
